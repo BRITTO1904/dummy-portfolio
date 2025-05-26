@@ -1,0 +1,155 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+  /* Dark Mode */
+  .dark-mode {
+    background: #111827;
+    color: #f3f4f6;
+  }
+  
+  .dark-mode header {
+    background: #1f2937;
+  }
+  
+  .dark-mode nav a {
+    color: #f3f4f6;
+  }
+  
+  .dark-mode .btn {
+    background: #3b82f6;
+  }
+  
+  .dark-mode .btn:hover {
+    background: #2563eb;
+  }
+  
+  .dark-mode .skill-card {
+    background: #1f2937;
+    color: #f3f4f6;
+  }
+  
+  .dark-mode .skill-card:hover {
+    background: #374151;
+  }
+  
+  .dark-mode .project {
+    background: #1f2937;
+    color: #f3f4f6;
+  }
+  
+  .dark-mode footer {
+    background: #1f2937;
+    color: #9ca3af;
+  }
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+    nav button {
+    background: #a7a0a0;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background: #d1d5db;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  
+}
